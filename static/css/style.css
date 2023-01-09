@@ -1,0 +1,51 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-grid{
+ 
+    display:grid;
+    grid-template-columns: repeat(2,auto);
+    grid-gap: 1.2vw;
+    padding: 2vw;
+    
+    
+}
+.grid {
+    width: 42vw;
+    padding: 2vw 2vw 0vw 2vw;
+    background-color: #f2f5f5;   
+    border: 1px solid #d9e0e1;
+}
+.flex {
+    display: flex;
+    gap: 2vw;
+    padding-bottom: 1vw;
+    
+}
+.flex img {
+    width: 4vw;
+    border: 1px solid #cecdcd;
+    height: 4vw;
+    
+}
+p {
+    color: #306068;
+    font-weight: bold;
+   
+}
+ .details-name-date {
+     color: #326168;
+     
+ }
+ span {
+    text-transform: uppercase;
+ }
+ @media screen and (max-width:550px) {
+    .flex img {
+            width: 10vw;
+            height: 10vw;
+    
+        }
+    
+ }
